@@ -24,7 +24,7 @@ public class DBContext {
         try {
             
             String username = "sa";
-            String password = "12345";
+            String password = "sa";
             String url = "jdbc:sqlserver://ADMIN\\TRAMY:1433;databaseName=FERA_ONL_LEARNING";
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             connection = DriverManager.getConnection(url, username, password);
